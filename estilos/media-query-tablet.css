@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/*
+ Celulares pequenos até 320px
+ Celulares médios ≥ 375px
+ Tablets médios ≥ 768px
+ Desktops ≥ 1400px
+ Telas grandes ≥ 1920px
+*/
+
+@media screen and (min-width:768px) {
+    section {
+        width: 710px;
+        height:600px;
+    }
+
+    div#img {
+        background-image: url(../imagens/sonic\ 2.png);
+        height: 277px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        margin: 5px;
+    }
+
+    input {
+        width: 500px;
+    }
+
+    input#entrar {
+        width: 500px;
+    }
+
+    button{
+        margin-left: -10px;
+        width: 500px;
+    }
+}

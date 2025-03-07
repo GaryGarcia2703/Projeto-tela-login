@@ -25,15 +25,15 @@ section {
     border-radius: 20px;
     text-align: center;
     background-color: #eef0f2;
-    width: 53vw;
-    height: 104vw;
+    width: 363px;
+    height: 731px;
 }
 
 div#img {
     border-radius: 10px 10px 0px 0px;
     background: url(../imagens/silverp.png);
     background-position: center center;
-    height: 35.5vw;
+    height: 277px;
 }
 
 h1 {
@@ -71,7 +71,17 @@ input#senha {
 }
 
 input#entrar {
-    width: 292px;
-    background-color: #90fcf9;
-    color: white;
+    margin-left: -5px;
+    width: 349px;
+    background-color: #9ddbf8;
+    color: rgb(0, 0, 0);
+}
+
+button{
+    margin-left: -5px;
+    width: 346px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: #9ddbf8 solid 2px;
 }
