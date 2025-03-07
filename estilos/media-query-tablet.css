@@ -7,7 +7,7 @@
  Telas grandes ≥ 1920px
 */
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:  768px) and (max-width: 992px) { /*Tablet*/
     section {
         width: 710px;
         height:600px;
