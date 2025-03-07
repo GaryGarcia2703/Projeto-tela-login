@@ -10,7 +10,7 @@
 }
 
 body, html {
-    height: 100vw;
+    height: 100vh;
     background-image: linear-gradient(#FFFFFF, #79BBED );
 }
 
@@ -19,21 +19,30 @@ main {
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
     height: 100vh;
+    width: 100vw;
 }
 
 section {
+    overflow: hidden;
     border-radius: 20px;
     text-align: center;
     background-color: #eef0f2;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.575);
     width: 363px;
     height: 731px;
 }
 
 div#img {
-    border-radius: 10px 10px 0px 0px;
+    display: block;
+    background-color: #9ddbf8;
     background: url(../imagens/silverp.png);
     background-position: center center;
+    background-size: cover;
     height: 277px;
+}
+
+form {
+    display: block;
 }
 
 h1 {
@@ -53,7 +62,7 @@ p.color {
 img.icon{
     width: 40px;
     height: 35px;
-    margin-bottom:-10px;
+    margin-bottom:-10px;                                                                           
 }
 
 input {
