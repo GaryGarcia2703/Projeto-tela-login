@@ -1,6 +1,77 @@
 @charset "UTF-8";
 
-/*
-    Paleta de cores:
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-*/
+* {
+    font-family: 'funnel sans', Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100vw;
+    background-image: linear-gradient(#FFFFFF, #79BBED );
+}
+
+main {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh;
+}
+
+section {
+    border-radius: 20px;
+    text-align: center;
+    background-color: #eef0f2;
+    width: 53vw;
+    height: 104vw;
+}
+
+div#img {
+    border-radius: 10px 10px 0px 0px;
+    background: url(../imagens/silverp.png);
+    background-position: center center;
+    height: 35.5vw;
+}
+
+h1 {
+    font-size: 2.3em;
+}
+
+p {
+    margin: 10px;
+}
+
+p.color {
+    border-radius: 10px;
+    background-color: #90fcf9;
+    padding-bottom: 1px;
+}
+
+img.icon{
+    width: 40px;
+    height: 35px;
+    margin-bottom:-10px;
+}
+
+input {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+input#email {
+    background-color:#ecebe4 ;
+}
+
+input#senha {
+    background-color: #ecebe4;
+}
+
+input#entrar {
+    width: 292px;
+    background-color: #90fcf9;
+    color: white;
+}

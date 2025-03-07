@@ -8,25 +8,40 @@
     <title>login</title>
 </head>
 <body>
-    <main>
-        <section id="login">
+    <main> 
+        <section>
+            <div id="img"></div>
+        
+            <h1>Login</h1>
+            <p>Bem-vindo de volta real nigga</p>
+            <form action="login.js" method="post">
 
-            <div id="imagem">
-img 
-            </div>
+                <p class="color">
+                    <label for="email">
+                        <img class="icon"
+                         src="imagens/q.webp" alt="imagem de usuario">
+                    </label>
 
-            <div id="form">
-                <h1>login</h1>
-                <p>
-                    Bem-vindo(a) Faça login para acessar a sua conta.
+                    <input type="email" id="email" placeholder="seu e-mail">
                 </p>
 
-                <form action="login.js" method="post">
-                    
-                </form>
+                <p class="color">
+                    <label for="senha">
+                        <img class="icon"
+                         src="imagens/q.webp" alt="imagem de usuario">
+                    </label>
 
-            </div>
+                    <input type="password" id="senha" placeholder="seua senha">
+                </p>
 
+                <p>
+                    <input type="submit" value="Entrar" id="entrar">
+                </p>
+
+                <p>
+                    <button>Esqueci minha senha</button>
+                </p>
+            </form>
         </section>
     </main>
 </body>
