@@ -16,7 +16,7 @@
     section {
         background-color: #C9E4F8;
         width: 750px;
-        height: 601px;
+        height: 501px;
     }
 
     div#img {
@@ -24,12 +24,12 @@
         background-position: center left;
         float: left;
         height: 100%;
-        width: 30%;
+        width: 35%;
     }
 
     form {
         float: right;
-        width: 70%;
+        width: 65%;
     }
 
     h1 {
@@ -41,24 +41,19 @@
         margin: 5px;
     }
 
-    input {
-        width: 10vw;
-    }
-
     input#email {
-        width: 428.7px;
+        width: 328.7px;
     }
 
     input#senha {
-        width: 428.7px;
+        width: 328.7px;
     }
 
     input#entrar {
-        width: 500px;
+        width: 400px;
     }
 
     button{
-        margin-left: -10px;
-        width: 500px;
+        width: 402px;
     }
 }

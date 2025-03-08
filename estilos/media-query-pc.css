@@ -11,11 +11,9 @@
     html, body {
         background-image: linear-gradient(#FFFFFF, #79BBED );
     }
-
-
-
     section {
         width: 1000px;
+        height: 490px;
     }
 
     div#img {
@@ -29,6 +27,14 @@
     form {
         float: right;
         width: 50%;
+    }
+
+    input#entrar {
+        width: 349px;
+    }
+
+    button{
+        width: 349px;
     }
     
 }
