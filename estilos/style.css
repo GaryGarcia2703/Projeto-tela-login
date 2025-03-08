@@ -11,7 +11,7 @@
 
 body, html {
     height: 100vh;
-    background-image: linear-gradient(#FFFFFF, #79BBED );
+    background-color: #79BBED ;
 }
 
 main {
@@ -73,10 +73,12 @@ input {
 
 input#email {
     background-color:#ecebe4 ;
+    width: 272.7px;
 }
 
 input#senha {
     background-color: #ecebe4;
+    width: 272.7px;
 }
 
 input#entrar {

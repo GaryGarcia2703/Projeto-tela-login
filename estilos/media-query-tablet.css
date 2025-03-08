@@ -8,21 +8,36 @@
 */
 
 @media screen and (min-width:  768px) and (max-width: 992px) { /*Tablet*/
+    html, body {
+        background-image: linear-gradient(#FFFFFF, #79BBED );
+
+    }
+
     section {
-        width: 710px;
-        height:600px;
+        background-color: #C9E4F8;
+        width: 870px;
+        height: 601px;
     }
 
     div#img {
-        background-image: url(../imagens/sonic\ 2.png);
-        height: 277px;
+        background-image: url(../imagens/Frutiger\ Aero\ place.jpg);
+        background-position: center left;
+        float: left;
+        height: 100%;
+        width: 30%;
+    }
+
+    form {
+        float: right;
+        width: 70%;
     }
 
     h1 {
-        font-size: 2em;
+        font-size: 3em;
     }
 
     p {
+        font-size: 1.5em;
         margin: 5px;
     }
 
