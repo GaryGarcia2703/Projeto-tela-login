@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/*
+ Celulares pequenos até 320px
+ Celulares médios ≥ 375px
+ Tablets médios ≥ 768px
+ Desktops ≥ 1400px
+ Telas grandes ≥ 1920px
+ */
+
+@media screen and (min-width:992px) {
+    html, body {
+        background-image: linear-gradient(#FFFFFF, #79BBED );
+    }
+
+
+
+    section {
+        width: 1000px;
+    }
+
+    div#img {
+        background-image: url(../imagens/sonic\ 2.png);
+        float: left;
+        width: 50%;
+        height: 100%;
+        
+    }
+
+    form {
+        float: right;
+        width: 50%;
+    }
+    
+}

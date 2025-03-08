@@ -26,10 +26,15 @@ section {
     overflow: hidden;
     border-radius: 20px;
     text-align: center;
+
     background-color: #eef0f2;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.575);
+
     width: 363px;
     height: 731px;
+    transition: width 0.5s, height 0.5s ;
+    transition-timing-function: ease;
+
 }
 
 div#img {
@@ -62,7 +67,7 @@ p.color {
 img.icon{
     width: 40px;
     height: 35px;
-    margin-bottom:-10px;                                                                           
+    margin-bottom:-10px;   
 }
 
 input {

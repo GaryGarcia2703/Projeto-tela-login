@@ -15,7 +15,7 @@
 
     section {
         background-color: #C9E4F8;
-        width: 870px;
+        width: 750px;
         height: 601px;
     }
 
@@ -42,7 +42,15 @@
     }
 
     input {
-        width: 500px;
+        width: 10vw;
+    }
+
+    input#email {
+        width: 428.7px;
+    }
+
+    input#senha {
+        width: 428.7px;
     }
 
     input#entrar {
