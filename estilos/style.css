@@ -58,6 +58,10 @@ p {
     margin: 10px;
 }
 
+p > label {
+    display: none;
+}
+
 p.color {
     border-radius: 10px;
     background-color: #90fcf9;
@@ -98,6 +102,12 @@ input#entrar {
     width: 249px;
     background-color: #9ddbf8;
     color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+}
+
+input#entrar:hover {
+    background-color: #66C7F4;
 }
 
 button{
@@ -106,8 +116,14 @@ button{
     background-color: #FFFFFF;
     color: #000000;
     border: #9ddbf8 solid 2px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #bae9ff;
 }
 
 a {
+    display: block;
     text-decoration: none;
 }
