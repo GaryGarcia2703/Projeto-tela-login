@@ -19,21 +19,17 @@
             <form action="login.js" method="post">
 
                 <p class="color">
-                    <label for="email">
-                        <img class="icon"
-                         src="imagens/q.webp" alt="imagem de usuario">
-                    </label>
+                    <img src="favicon/person_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="person icon" id="person">
 
-                    <input type="email" id="email" placeholder="seu e-mail">
+                    <input type="email" id="email" placeholder="seu e-mail" required maxlength="16">
+                    <label for="email">E-mail</label>
                 </p>
 
                 <p class="color">
-                    <label for="senha">
-                        <img class="icon"
-                         src="imagens/q.webp" alt="imagem de usuario">
-                    </label>
-
-                    <input type="password" id="senha" placeholder="seua senha">
+                    <img src="favicon/key_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="key icon" id="key"> 
+                    <input type="password" id="senha" placeholder="seua senha" required
+                    minlength="10" maxlength="16">
+                    <label for="senha">Senha</label>
                 </p>
 
                 <p>
@@ -41,7 +37,9 @@
                 </p>
 
                 <p>
-                    <button>Esqueci minha senha</button>
+                    <a href="esqueci.html">
+                        Esqueci minha senha
+                    </a>
                 </p>
             </form>
         </section>

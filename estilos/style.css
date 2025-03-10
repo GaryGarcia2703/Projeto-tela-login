@@ -64,11 +64,18 @@ p.color {
     padding-bottom: 1px;
 }
 
-img.icon{
-    width: 40px;
-    height: 35px;
-    margin-bottom:-9px; 
-    margin-left: 2px; 
+img#person {
+    width: 45px;
+    height: 45px;
+    margin-right: -10px;
+    margin-bottom: -16px;
+}
+
+img#key {
+    width: 45px;
+    height: 45px;
+    margin-right: -10px;
+    margin-bottom: -16px;
 }
 
 input {
@@ -93,9 +100,9 @@ input#entrar {
     color: rgb(0, 0, 0);
 }
 
-button{
-    width: 250px;
-    padding: 10px;
+a{
+    text-decoration: none;
+    width: 450px;
     background-color: #FFFFFF;
     color: #000000;
     border: #9ddbf8 solid 2px;
