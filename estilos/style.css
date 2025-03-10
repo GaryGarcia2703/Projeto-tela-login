@@ -31,7 +31,7 @@ section {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.575);
 
     width: 305px;
-    height: 565.3px;
+    height: 579.3px;
     transition: width 0.5s, height 0.5s ;
     transition-timing-function: ease;
 
@@ -62,18 +62,18 @@ p.color {
     border-radius: 10px;
     background-color: #90fcf9;
     padding-bottom: 1px;
-}
+}                                                                                           
 
 img#person {
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
     margin-right: -10px;
     margin-bottom: -16px;
 }
 
 img#key {
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
     margin-right: -10px;
     margin-bottom: -16px;
 }
@@ -100,10 +100,14 @@ input#entrar {
     color: rgb(0, 0, 0);
 }
 
-a{
-    text-decoration: none;
-    width: 450px;
+button{
+    width: 250px;
+    padding: 10px;
     background-color: #FFFFFF;
     color: #000000;
     border: #9ddbf8 solid 2px;
+}
+
+a {
+    text-decoration: none;
 }
