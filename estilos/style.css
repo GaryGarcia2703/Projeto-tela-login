@@ -72,7 +72,7 @@ img#person {
     width: 35px;
     height: 35px;
     margin-right: -10px;
-    margin-bottom: -16px;
+    margin-bottom: -13px;
 }
 
 img#key {
@@ -83,6 +83,7 @@ img#key {
 }
 
 input {
+    border: 0px;
     border-radius: 5px;
     padding: 10px;
     margin: 10px;

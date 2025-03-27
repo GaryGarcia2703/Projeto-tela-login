@@ -29,6 +29,14 @@
         width: 50%;
     }
 
+    input#email {
+        width: 358.7px;
+    }
+
+    input#senha {
+        width: 358.7px;
+    }
+
     input#entrar {
         width: 349px;
     }
